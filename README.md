@@ -16,16 +16,16 @@ Once hangman is completed you will lose.
 # Additional features
 <ul>
 <li>GUI Interface: The game provides a graphical user interface using the Pygame library, allowing users to interact with buttons and visual elements.
-</li>
+</li><br>
   <li>
 Word Selection: Random words are chosen from predefined lists for players to guess.</li>
 <li>
 Hangman Graphics: Visual representation of the Hangman is displayed as the game progresses. Different images are used to illustrate the Hangman's state.
-</li>
+</li><br>
   <li>
 Letter Buttons: Buttons are provided for each letter of the alphabet to facilitate letter selection during the guessing process.</li>
-<li>
-Word Display: The word to be guessed is displayed with underscores representing each letter, and as correct letters are guessed, they are revealed in the word display.</li>
+</li><br>
+Word Display: The word to be guessed is displayed with underscores representing each letter, and as correct letters are guessed, they are revealed in the word display.</li><br>
 </ul>
 # Versions
 <ul>
