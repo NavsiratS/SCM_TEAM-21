@@ -16,7 +16,7 @@ imag=pygame.image.load('lose.png')
 radius=20
 space=20
 letters=[] #[399,122,"A",True] 
-x_start=round(130+(WIDTH-(radius*2 + space)*13)/2) 
+# x_start=round(130+(WIDTH-(radius*2 + space)*13)/2) 
 y_start=500
 
 A=65 # Using ACII value to print letters on the button. A->65, B->66 and so on 
