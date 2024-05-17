@@ -16,7 +16,7 @@ imag=pygame.image.load('lose.png')
 radius=20
 space=20
 letters=[] #[399,122,"A",True] 
-# x_start=round(130+(WIDTH-(radius*2 + space)*13)/2) 
+x_start=round(130+(WIDTH-(radius*2 + space)*13)/2) 
 y_start=500
 
 A=65 # Using ACII value to print letters on the button. A->65, B->66 and so on 
@@ -26,12 +26,12 @@ for i in range(26):
 	y=y_start + ((i//13) * (space + radius*2)) 
 	letters.append([x,y,chr(A+i),True]) 
 
-# Fonts 
-font=pygame.font.SysFont("Pokemon GB.ttf",55) 
-WORD=pygame.font.SysFont("Pokemon GB.ttf",50,) 
-TITLE=pygame.font.SysFont("Releway Black",70,) 
-TI=pygame.font.SysFont("alile",20,italic=True)
-NUM=pygame.font.SysFont("alile",50,italic=True)
+# # Fonts 
+# font=pygame.font.SysFont("Pokemon GB.ttf",55) 
+# WORD=pygame.font.SysFont("Pokemon GB.ttf",50,) 
+# TITLE=pygame.font.SysFont("Releway Black",70,) 
+# TI=pygame.font.SysFont("alile",20,italic=True)
+# NUM=pygame.font.SysFont("alile",50,italic=True)
 
 # Time to load images so we can draw a hangman 
 images=[] 
