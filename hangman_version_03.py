@@ -3,7 +3,7 @@ import math
 import random 
 
 pygame.init() 
-WIDTH, HEIGHT= 500, 700
+WIDTH, HEIGHT= 1100, 700
 win=pygame.display.set_mode((WIDTH,HEIGHT)) 
 pygame.display.set_caption("HANGMAN") 
 
